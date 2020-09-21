@@ -67,7 +67,14 @@ export default defineConfig({
           routes: [
             {
               path: '/',
-              redirect: '/dashboard/analysis',
+              redirect: '/dashboard/analysis', 
+              redirect: '/welcome',
+            }, 
+            {
+              name: 'welcome',
+              icon: 'smile',
+              path: '/welcome',
+              component: "./Welcome"
             },
             {
               path: '/dashboard',
