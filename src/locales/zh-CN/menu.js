@@ -54,5 +54,9 @@ export default {
   "menu.algorithms": "算法及数据结构",
   "menu.algorithms.overview": "概览",
   "menu.algorithms.tree-traversal": "树的遍历",
-  "menu.algorithms.heap": "堆" 
+  "menu.algorithms.heap": "堆",
+
+  "menu.prog-lang": "编程语言",
+  "menu.prog-lang.overview": "概览",
+  "menu.prog-lang.basics": "基础",
 };

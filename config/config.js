@@ -111,6 +111,33 @@ export default defineConfig({
               ],
             },
             {
+              name: 'prog-lang',
+              icon: 'smile',
+              path: '/prog-lang',
+              // component: './ProgrammingLanguages/Index',
+              routes: [
+                {
+                  name: 'index',
+                  icon: 'smile',
+                  path: '/prog-lang/index',
+                  component: './ProgrammingLanguages/Index',
+                  hideInMenu: true,
+                },
+                {
+                  name: 'overview',
+                  icon: 'smile',
+                  path: '/prog-lang/overview',
+                  component: './ProgrammingLanguages/Overview',
+                },
+                {
+                  name: 'basics',
+                  icon: 'smile',
+                  path: '/prog-lang/basics',
+                  component: './ProgrammingLanguages/Basics',
+                },
+              ],
+            },
+            {
               path: '/dashboard',
               name: 'dashboard',
               icon: 'dashboard',
