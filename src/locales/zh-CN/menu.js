@@ -49,4 +49,10 @@ export default {
   'menu.editor.flow': '流程编辑器',
   'menu.editor.mind': '脑图编辑器',
   'menu.editor.koni': '拓扑编辑器',
+
+  // below is my actual pages
+  "menu.algorithms": "算法及数据结构",
+  "menu.algorithms.overview": "概览",
+  "menu.algorithms.tree-traversal": "树的遍历",
+  "menu.algorithms.heap": "堆" 
 };

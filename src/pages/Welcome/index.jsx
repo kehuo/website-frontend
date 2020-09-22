@@ -42,9 +42,11 @@ const Welcome = ({ dispatch, welcome: { list = [] }, loading }) => {
           <Card 
           className={styles.card} 
           hoverable 
-          cover={<div><img alt={item.title} src={item.cover} className={styles.card__image}/></div>}>
+          cover={
+            <img alt={item.title} src={item.cover} className={styles.card__image}/>
+          }>
             <Card.Meta
-              title={<a>{item.title}</a>}
+              title={<a href={item.href}>{item.title}</a>}
               description={
                 <Paragraph
                   className={styles.item}
@@ -56,20 +58,6 @@ const Welcome = ({ dispatch, welcome: { list = [] }, loading }) => {
                 </Paragraph>
               }
             />
-            <div className={styles.cardItemContent}>
-              <span>{moment(item.updatedAt).fromNow()}</span>
-              <div className={styles.avatarList}>
-                <AvatarList size="small">
-                  {item.members.map((member, i) => (
-                    <AvatarList.Item
-                      key={getKey(item.id, i)}
-                      src={member.avatar}
-                      tips={member.name}
-                    />
-                  ))}
-                </AvatarList>
-              </div>
-            </div>
           </Card>
         </List.Item>
       )}

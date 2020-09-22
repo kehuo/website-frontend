@@ -67,14 +67,48 @@ export default defineConfig({
           routes: [
             {
               path: '/',
-              redirect: '/dashboard/analysis', 
+              redirect: '/dashboard/analysis',
               redirect: '/welcome',
-            }, 
+            },
             {
               name: 'welcome',
               icon: 'smile',
               path: '/welcome',
-              component: "./Welcome"
+              component: './Welcome',
+            },
+            {
+              name: 'algorithms',
+              icon: 'smile',
+              path: '/algorithms',
+              routes: [
+                // index will hide in menu, it only used for routing page from Welcome to index
+                // index路由不在菜单中显示。该路由仅用来从 /welcome 点击后跳转到对应的 index 页面而已.
+                {
+                  name: 'index',
+                  icon: 'smile',
+                  path: '/algorithms/index',
+                  component: './Algorithms/Index',
+                  hideInMenu: true,
+                },
+                {
+                  name: 'overview',
+                  icon: 'smile',
+                  path: '/algorithms/overview',
+                  component: './Algorithms/Overview',
+                },
+                {
+                  name: 'tree-traversal',
+                  icon: 'smile',
+                  path: '/algorithms/tree-traversal',
+                  component: './Algorithms/TreeTraversal',
+                },
+                {
+                  name: 'heap',
+                  icon: 'smile',
+                  path: '/algorithms/heap',
+                  component: './Algorithms/Heap',
+                },
+              ],
             },
             {
               path: '/dashboard',
