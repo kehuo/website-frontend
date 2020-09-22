@@ -52,11 +52,22 @@ export default {
 
   // below is my actual pages
   "menu.algorithms": "算法及数据结构",
+  "menu.algorithms.index": "目录页",
   "menu.algorithms.overview": "概览",
   "menu.algorithms.tree-traversal": "树的遍历",
   "menu.algorithms.heap": "堆",
 
   "menu.prog-lang": "编程语言",
+  "menu.prog-lang.index": "目录页",
   "menu.prog-lang.overview": "概览",
   "menu.prog-lang.basics": "基础",
+
+  "menu.ml": "机器学习",
+  "menu.ml.index": "目录页",
+  "menu.ml.overview": "概览",
+
+  "menu.misc": "杂项",
+  "menu.misc.index": "目录页",
+  "menu.misc.ASP-NET-Core": "ASP.NET Core",
+  "menu.misc.about-me": "关于我"
 };
