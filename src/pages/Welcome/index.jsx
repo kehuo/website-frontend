@@ -15,6 +15,7 @@ const getKey = (id, index) => `${id}-${index}`;
 
 const Welcome = ({ dispatch, welcome: { list = [] }, loading }) => {
   useEffect(() => {
+    console.log("useEffect")
     dispatch({
       type: 'welcome/fetch',
       payload: {
