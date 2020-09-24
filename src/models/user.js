@@ -1,4 +1,6 @@
-import { queryCurrent, query as queryUsers } from '@/services/user';
+// import { queryCurrent, query as queryUsers } from '@/services/user';
+import { getTopRightUserInfo, query as queryUsers } from '@/services/user';
+
 const UserModel = {
   namespace: 'user',
   state: {
@@ -14,7 +16,9 @@ const UserModel = {
     },
 
     *fetchCurrent(_, { call, put }) {
-      const response = yield call(queryCurrent);
+      console.log("渲染layout 右上角user时, model/user fetchCurrent")
+      // const response = yield call(queryCurrent);
+      const response = yield call(getTopRightUserInfo);
       yield put({
         type: 'saveCurrentUser',
         payload: response,

@@ -109,8 +109,8 @@ class Settings extends Component {
       case 'binding':
         return <BindingView />;
 
-      case 'notification':
-        return <NotificationView />;
+      // case 'notification':
+      //   return <NotificationView />;
 
       default:
         break;

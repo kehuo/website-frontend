@@ -1,4 +1,5 @@
-import { queryCurrent, queryFakeList } from './service';
+// import { queryCurrent, queryFakeList } from './service';
+import {getAboutMe, queryFakeList } from './service';
 
 const Model = {
   namespace: 'miscAndAboutMe',
@@ -8,7 +9,8 @@ const Model = {
   },
   effects: {
     *fetchCurrent(_, { call, put }) {
-      const response = yield call(queryCurrent);
+      // const response = yield call(queryCurrent);
+      const response = yield call(getAboutMe);
       yield put({
         type: 'saveCurrentUser',
         payload: response,

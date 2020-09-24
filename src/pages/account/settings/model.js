@@ -1,4 +1,7 @@
-import { queryCity, queryCurrent, queryProvince, query as queryUsers } from './service';
+// import { queryCity, queryCurrent, queryProvince, query as queryUsers } from './service';
+import { queryCity, getCurrentUser, queryProvince, query as queryUsers } from './service';
+
+
 const Model = {
   namespace: 'accountAndsettings',
   state: {
@@ -17,7 +20,9 @@ const Model = {
     },
 
     *fetchCurrent(_, { call, put }) {
-      const response = yield call(queryCurrent);
+      // const response = yield call(queryCurrent);
+      console.log("fetch current model")
+      const response = yield call(getCurrentUser);
       yield put({
         type: 'saveCurrentUser',
         payload: response,
