@@ -22,6 +22,15 @@ export default defineConfig({
   targets: {
     ie: 11,
   },
+
+  ssr: {
+    staticMarkup: true,
+  },
+
+  exportStatic: {
+    htmlSuffix: true,
+  },
+
   // umi routes: https://umijs.org/docs/routing
   routes: [
     {
@@ -75,7 +84,7 @@ export default defineConfig({
               icon: 'smile',
               path: '/welcome',
               component: './Welcome',
-              hideInMenu: true
+              hideInMenu: true,
             },
             {
               name: 'algorithms',

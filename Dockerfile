@@ -14,4 +14,4 @@ COPY --from=builder /app/dist /data/app_static/home
 EXPOSE 80
 VOLUME [ "/etc/nginx/nginx.conf" ]
 CMD ["nginx", "-g", "daemon off;"]
-# docker run -itd -p 8000:80 --name front -v /Users/hk/dev/website-frontend/nginx/nginx.conf:/etc/nginx/nginx.conf frontimg:v1
+# docker run -itd -p 8000:80 --rm --name front -v /Users/hk/dev/website-frontend/nginx/nginx.conf:/etc/nginx/nginx.conf frontimg:v1
