@@ -1,0 +1,17 @@
+{
+  "unversionedId": "programming/algorithms/overview",
+  "id": "programming/algorithms/overview",
+  "isDocsHomePage": false,
+  "title": "overview",
+  "description": "Algorithms",
+  "source": "@site/docs/programming/algorithms/overview.md",
+  "slug": "/programming/algorithms/overview",
+  "permalink": "/docs/programming/algorithms/overview",
+  "version": "current",
+  "sidebar_label": "Overview",
+  "sidebar": "docs",
+  "next": {
+    "title": "cache",
+    "permalink": "/docs/programming/algorithms/cache"
+  }
+}

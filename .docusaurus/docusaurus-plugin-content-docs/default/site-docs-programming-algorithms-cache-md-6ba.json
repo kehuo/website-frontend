@@ -1,0 +1,21 @@
+{
+  "unversionedId": "programming/algorithms/cache",
+  "id": "programming/algorithms/cache",
+  "isDocsHomePage": false,
+  "title": "cache",
+  "description": "LRU",
+  "source": "@site/docs/programming/algorithms/cache.md",
+  "slug": "/programming/algorithms/cache",
+  "permalink": "/docs/programming/algorithms/cache",
+  "version": "current",
+  "sidebar_label": "Cache",
+  "sidebar": "docs",
+  "previous": {
+    "title": "overview",
+    "permalink": "/docs/programming/algorithms/overview"
+  },
+  "next": {
+    "title": "overview",
+    "permalink": "/docs/programming/prog-lang/overview"
+  }
+}
