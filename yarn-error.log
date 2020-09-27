@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn version
+  /usr/local/bin/node /usr/local/bin/yarn start
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hk/Downloads:/usr/local/mysql/bin
@@ -30,9 +30,11 @@ npm manifest:
       "@docusaurus/core": "2.0.0-alpha.64",
       "@docusaurus/preset-classic": "2.0.0-alpha.64",
       "@mdx-js/react": "^1.5.8",
+      "antd": "^4.6.6",
       "clsx": "^1.1.1",
       "react": "^16.8.4",
       "react-dom": "^16.8.4",
+      "react-signature-canvas": "^1.0.3",
       "yarn": "^1.22.5"
     },
     "browserslist": {
@@ -8986,19 +8988,25 @@ Lockfile:
       y18n "^4.0.0"
       yargs-parser "^13.1.2"
   
+  yarn@^1.22.5:
+    version "1.22.5"
+    resolved "https://registry.npm.taobao.org/yarn/download/yarn-1.22.5.tgz#1933b7635429ca00847222dd9d38f05646e2df23"
+  
   zwitch@^1.0.0:
     version "1.0.5"
     resolved "https://registry.npm.taobao.org/zwitch/download/zwitch-1.0.5.tgz#d11d7381ffed16b742f6af7b3f223d5cd9fe9920"
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:128791:13)
-      at Interface.emit (events.js:315:20)
-      at Interface._ttyWrite (readline.js:868:16)
-      at ReadStream.onkeypress (readline.js:205:10)
-      at ReadStream.emit (events.js:315:20)
-      at emitKeys (internal/readline/utils.js:335:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (readline.js:1137:36)
-      at ReadStream.emit (events.js:315:20)
-      at addChunk (_stream_readable.js:295:12)
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c docusaurus start
+  Directory: /Users/hk/dev/website-frontend
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at ChildProcess.emit (events.js:315:20)
+      at maybeClose (internal/child_process.js:1021:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)

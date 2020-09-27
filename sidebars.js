@@ -25,7 +25,8 @@ module.exports = {
       type: "category",
       label: "Machine Learning",
       items: [
-        "ml/overview", 
+        "ml/overview",
+        "ml/mnist"
       ]
     },
 

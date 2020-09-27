@@ -7,12 +7,10 @@ export default class Jupyter extends React.Component {
       this.state = {
         iFrameHeight: '0px',
         baseIframePath: "http://kevinhuo.cool/nbviewer/localfile/"
-        //baseIframePath: "http://localhost/nbviewer/localfile/"
       }
     }
 
     render() {
-      // src 的端口必须指定 nginx 的端口 888，才可以避免跨域问题.
       const src = this.state.baseIframePath + this.props.filePath;
       return (
         <iframe 

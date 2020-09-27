@@ -14,9 +14,11 @@
     "@docusaurus/core": "2.0.0-alpha.64",
     "@docusaurus/preset-classic": "2.0.0-alpha.64",
     "@mdx-js/react": "^1.5.8",
+    "antd": "^4.6.6",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-signature-canvas": "^1.0.3",
     "yarn": "^1.22.5"
   },
   "browserslist": {

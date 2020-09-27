@@ -5,8 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import Jupyter from "../../src/components/Jupyter"
-
 
 const features = [
   {
@@ -28,11 +26,11 @@ const features = [
     ),
   },
   {
-    title: 'Macheine Learning',
+    title: 'Machine Learning',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Machine Learning and Deep Learning, make impossible things possible.
+        Machine Learning and Deep Learning.
       </>
     ),
   },
