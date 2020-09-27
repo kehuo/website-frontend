@@ -6,7 +6,8 @@ export default class Jupyter extends React.Component {
       super();
       this.state = {
         iFrameHeight: '0px',
-        baseIframePath: "http://localhost/nbviewer/localfile/"
+        baseIframePath: "http://kevinhuo.cool/nbviewer/localfile/"
+        //baseIframePath: "http://localhost/nbviewer/localfile/"
       }
     }
 
