@@ -1,33 +1,5 @@
 # Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
-
-### Installation
-
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-```
-$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This is the project for [my website](http://kevinhuo.cool). It's powered by [Docusaurus 2](https://v2.docusaurus.io/).
+It supports [MDX](https://mdxjs.com/) which make it possible to seamlessly write JSX in the Markdown documents.
+Moreover, it communicates with my self-hosted [nbviewer](https://nbviewer.jupyter.org/) server to get the rendered static [Jupyter Notebooks](https://jupyter.org/), and plan to use [Binder](https://mybinder.org/) service to provide interactive notebooks with the same content. You can find my Binder Repo [here](https://github.com/kehuo/website-binder).

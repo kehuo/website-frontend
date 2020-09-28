@@ -1,8 +1,11 @@
 ---
 id: cache
-title: cache
+title: Cache
 sidebar_label: Cache
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## LRU
 
@@ -10,12 +13,19 @@ Least Recently Used
 
 | Algorithm | Complexity |
 | :-------: | :--------: |
-|   Space   |   $O(n)$   |
-|    Get    |   $O(1)$   |
-|    Put    |   $O(1)$   |
+|   Space   |   O(n)   |
+|    Get    |   O(1)   |
+|    Put    |   O(1)   |
 
 1. Implemented by Built-in Structures
 
+<Tabs
+  defaultValue="py"
+  values={[
+    { label: 'Python', value: 'py'}
+  ]
+}>
+<TabItem value="py">
 
 Implemented by OrderedDict
 
@@ -41,8 +51,18 @@ class LRUCache(OrderedDict):
             self.popitem(last=False)
 ```
 
+</TabItem>
+</Tabs>
 
 2. Implemented by hash table and doubly linked list
+
+<Tabs
+  defaultValue="py"
+  values={[
+    { label: 'Python', value: 'py'}
+  ]
+}>
+<TabItem value="py">
 
 ```py
 class LRUNode(object):
@@ -109,6 +129,9 @@ class LRUCache2(object):
                 self.pop_first()
 ```
 
+</TabItem>
+</Tabs>
+
 
 ## LFU
 
@@ -116,10 +139,17 @@ Least Frequently Used
 
 | Algorithm | Complexity |
 | :-------: | :--------: |
-|   Space   |   $O(n)$   |
-|    Get    |   $O(1)$   |
-|    Put    |   $O(1)$   |
+|   Space   |   O(n)   |
+|    Get    |   O(1)   |
+|    Put    |   O(1)   |
 
+<Tabs
+  defaultValue="py"
+  values={[
+    { label: 'Python', value: 'py'}
+  ]
+}>
+<TabItem value="py">
 
 ```py
 class LFUNode(object):
@@ -199,8 +229,5 @@ class LFUCache(object):
             self.lists[1].append(node)
 ```
 
-
-## Tests
-
-:::note
-todo
+</TabItem>
+</Tabs>

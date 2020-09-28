@@ -6,8 +6,10 @@ module.exports = {
       label: "Algorithms",
       items: [
         "programming/algorithms/overview", 
-        "programming/algorithms/cache",
         "programming/algorithms/tree-traversal",
+        "programming/algorithms/graph-traversal",
+        "programming/algorithms/minimum-spanning-tree",
+        "programming/algorithms/cache",
       ]
     },
 
@@ -32,7 +34,7 @@ module.exports = {
 
     {
       type: "category",
-      label: "misc",
+      label: "Misc",
       items: [
         "misc/overview", 
       ]

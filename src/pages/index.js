@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+
 const features = [
   {
     title: "Algorithms",
@@ -45,8 +46,8 @@ function Feature({imageUrl, title, description}) {
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <h3 className="text--center">{title}</h3>
+      <p className="text--center">{description}</p>
     </div>
   );
 }
@@ -60,7 +61,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           {/* <div className={styles.buttons}>
             <Link
@@ -72,7 +73,6 @@ function Home() {
               Get Started
             </Link>
           </div> */}
-          {/* <Jupyter filePath="basics/python.ipynb"/> */}
         </div>
       </header>
       <main>

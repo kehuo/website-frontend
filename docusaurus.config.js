@@ -17,7 +17,8 @@ module.exports = {
       //title: 'HUO Ke',
       logo: {
         alt: 'Logo',
-        src: 'img/fire_logo_wider_gap.png',
+        //src: 'img/logo/fire_logo_wider_gap.png',
+        src: 'img/logo/logo_notHD.png',
         
       },
 
