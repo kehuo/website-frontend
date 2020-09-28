@@ -52,7 +52,7 @@ In computational complexity theory, NP-hardness (non-deterministic polynomial-ti
 
 ### Approximation Algorithms
 
-Approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one. [^approximation] There are two commonly used schemas for approximation algorithms, greedy based algorithm ([Knapsack Problem](./knapsack.md)) and deterministic rounding ([Vertex Cover Problem](./vertex-cover.md)).
+Approximation algorithms are efficient algorithms that find approximate solutions to optimization problems (in particular NP-hard problems) with provable guarantees on the distance of the returned solution to the optimal one. [^approximation] There are two commonly used schemas for approximation algorithms, greedy based algorithm (Knapsack Problem) and deterministic rounding (Vertex Cover Problem).
 
 [^approximation]: Williamson, D. P., & Shmoys, D. B. (2011). The design of approximation algorithms. Cambridge university press.
 
