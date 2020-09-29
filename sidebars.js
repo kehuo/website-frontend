@@ -9,6 +9,7 @@ module.exports = {
         "programming/algorithms/tree-traversal",
         "programming/algorithms/graph-traversal",
         "programming/algorithms/minimum-spanning-tree",
+        "programming/algorithms/quicksort",
         "programming/algorithms/cache",
       ]
     },
@@ -20,6 +21,7 @@ module.exports = {
         "programming/prog-lang/overview",
         "programming/prog-lang/basics",
         "programming/prog-lang/collections",
+        "programming/prog-lang/controls",
       ]
     },
     

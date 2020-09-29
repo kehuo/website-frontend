@@ -1,7 +1,7 @@
 ---
-id: basics
-title: Basics
-sidebar_label: Basics
+id: controls
+title: Flow Control
+sidebar_label: Flow Control
 ---
 
 import Tabs from '@theme/Tabs';
@@ -18,7 +18,7 @@ import {MDXJupyter} from '../../../src/components/Jupyter'
 
 <TabItem value="py">
 
-<MDXJupyter filePath="basics/python.ipynb"/>
+<MDXJupyter filePath="controls/python.ipynb"/>
 
 </TabItem>
 </Tabs>

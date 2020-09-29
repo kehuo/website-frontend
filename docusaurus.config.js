@@ -21,7 +21,7 @@ module.exports = {
         src: 'img/logo/logo_notHD.png',
         
       },
-
+      hideOnScroll: true,
       // 导航栏右上角
       items: [
         {
@@ -49,7 +49,7 @@ module.exports = {
         },
         
         {
-          href: 'https://github.com/kehuo',
+          href: 'https://github.com/kehuo/website-frontend',
           label: 'GitHub',
           position: 'right',
         },
