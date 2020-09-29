@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Spin} from "antd";
+// import {Spin} from "antd";
 
 
 export default class Jupyter extends React.Component {
@@ -9,14 +9,14 @@ export default class Jupyter extends React.Component {
       this.state = {
         iFrameHeight: '0px',
         baseIframePath: "http://kevinhuo.cool/nbviewer/localfile/",
-        isSpinning: true
+        // isSpinning: true
       }
     }
 
     render() {
       const src = this.state.baseIframePath + this.props.filePath;
       return (
-        <Spin tip="Loading..." spinning={this.state.isSpinning}>
+        // <Spin tip="Loading..." spinning={this.state.isSpinning}>
           <iframe 
               style={{width:'100%', height:this.state.iFrameHeight, overflow:'visible'}}
               onLoad={() => {
@@ -24,7 +24,6 @@ export default class Jupyter extends React.Component {
                   this.setState({
                       "iFrameHeight":  obj.contentWindow.document.body.scrollHeight + 'px'
                   });
-                  this.setState({isSpinning: false});
               }} 
               src={src}
               width="100%" 
@@ -33,7 +32,7 @@ export default class Jupyter extends React.Component {
               frameBorder="0"
           >
           </iframe>
-        </Spin>
+        // </Spin>
       );
     }
   }
