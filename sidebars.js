@@ -11,6 +11,12 @@ module.exports = {
         "programming/algorithms/minimum-spanning-tree",
         "programming/algorithms/quicksort",
         "programming/algorithms/cache",
+        "programming/algorithms/disjoint-sets",
+        "programming/algorithms/single-source-shortest-paths",
+        "programming/algorithms/balanced-tree",
+        "programming/algorithms/scc",
+        "programming/algorithms/binary-search",
+        "programming/algorithms/segment-tree"
       ]
     },
 
@@ -38,7 +44,8 @@ module.exports = {
       type: "category",
       label: "Misc",
       items: [
-        "misc/overview", 
+        "misc/overview",
+        "misc/apis"
       ]
     },
     
