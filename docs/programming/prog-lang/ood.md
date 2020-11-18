@@ -1,7 +1,7 @@
 ---
-id: basics
-title: Basics
-sidebar_label: Basics
+id: ood
+title: Object-Oriented Design
+sidebar_label: Object-Oriented Design
 ---
 
 import Tabs from '@theme/Tabs';
@@ -19,13 +19,13 @@ import {MDXJupyter} from '../../../src/components/Jupyter'
 
 <TabItem value="py">
 
-<MDXJupyter filePath="basics/python.ipynb"/>
+<MDXJupyter filePath="ood/python.ipynb"/>
 
 </TabItem>
 
 <TabItem value="java">
 
-<MDXJupyter filePath="basics/java.ipynb"/>
+<MDXJupyter filePath="ood/java.ipynb"/>
 
 </TabItem>
 </Tabs>

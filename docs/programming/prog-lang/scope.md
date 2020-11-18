@@ -1,7 +1,7 @@
 ---
-id: basics
-title: Basics
-sidebar_label: Basics
+id: scope
+title: Namespaces and Scope
+sidebar_label: Namespaces and Scope
 ---
 
 import Tabs from '@theme/Tabs';
@@ -19,13 +19,13 @@ import {MDXJupyter} from '../../../src/components/Jupyter'
 
 <TabItem value="py">
 
-<MDXJupyter filePath="basics/python.ipynb"/>
+<MDXJupyter filePath="scope/python.ipynb"/>
 
 </TabItem>
 
 <TabItem value="java">
 
-<MDXJupyter filePath="basics/java.ipynb"/>
+<MDXJupyter filePath="scope/java.ipynb"/>
 
 </TabItem>
 </Tabs>
