@@ -16,3 +16,6 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # prod:
 # docker run -itd -p 80:80 --rm --name front -v /root/dev/website-frontend/nginx/nginx.conf:/etc/nginx/nginx.conf frontimg:docusaurus
+
+# docker start nbviewer instance:
+# docker run -itd -p 8080:8080 --rm --name nbviewer -e 'JUPYTERHUB_SERVICE_PREFIX=/nbviewer' -v /root/dev/website-binder/notebooks:/srv/nbviewer/notebooks:ro kehuo/nbviewer:latest
