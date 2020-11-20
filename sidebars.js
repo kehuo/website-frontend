@@ -28,6 +28,12 @@ module.exports = {
         "programming/prog-lang/basics",
         "programming/prog-lang/collections",
         "programming/prog-lang/controls",
+        "programming/prog-lang/function",
+        "programming/prog-lang/libs",
+        "programming/prog-lang/io",
+        "programming/prog-lang/exceptions",
+        "programming/prog-lang/ood",
+        "programming/prog-lang/scope"
       ]
     },
     

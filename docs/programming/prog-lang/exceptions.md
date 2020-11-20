@@ -1,7 +1,7 @@
 ---
-id: basics
-title: Basics
-sidebar_label: Basics
+id: exceptions
+title: Errors and Exceptions
+sidebar_label: Errors and Exceptions
 ---
 
 import Tabs from '@theme/Tabs';
@@ -19,13 +19,13 @@ import {MDXJupyter} from '../../../src/components/Jupyter'
 
 <TabItem value="py">
 
-<MDXJupyter filePath="basics/python.ipynb"/>
+<MDXJupyter filePath="exceptions/python.ipynb"/>
 
 </TabItem>
 
 <TabItem value="java">
 
-<MDXJupyter filePath="basics/java.ipynb"/>
+<MDXJupyter filePath="exceptions/java.ipynb"/>
 
 </TabItem>
 </Tabs>
